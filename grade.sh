@@ -5,7 +5,7 @@ rm -rf grading-area
 
 mkdir grading-area
 
-git clone $1 student-submission
+git clone $1 student-submission 
 echo 'Finished cloning'
 cd student-submission
 if [ -f ListExamples.java ] 
